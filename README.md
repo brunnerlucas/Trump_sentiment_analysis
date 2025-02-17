@@ -1,5 +1,5 @@
-Bitcoin Price & Trump Tweets Dataset
-
+**Bitcoin Price & Trump Tweets Dataset
+**
 This repository contains:
 
 Bitcoin Price Data (btc_price.csv) – Historical BTC price data obtained using yfinance.
