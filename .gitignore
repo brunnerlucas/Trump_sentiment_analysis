@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 ¨
-nano .gitignore
+README.md
 
 # C extensions
 *.so
