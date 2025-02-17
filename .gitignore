@@ -1,9 +1,16 @@
+README.md
+
+# Ignore Hive Metastore Database
+metastore_db/
+metastore_db/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 ¨
-README.md
+
 
 # C extensions
 *.so
