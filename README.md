@@ -14,6 +14,7 @@ btc_data = yf.download("BTC-USD", start="2016-01-01", end="2024-02-17")
 btc_data.reset_index(inplace=True)
 btc_data.to_csv("btc_price.csv", index=False)
 print("BTC price data saved as btc_price.csv")
+</code></pre>
 
 After running this script, btc_price.csv will be generated in the current directory.
 
