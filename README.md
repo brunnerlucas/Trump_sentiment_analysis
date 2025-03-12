@@ -13,6 +13,6 @@ https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
     <li>"Bitcoin", "BTC", "Crypto", "Cryptocurrency"</li>
     <li>"Blockchain", "Digital currency", "Ethereum"</li>
     <li>"Coin", "Stablecoin", "Mining", "XRP"</li>
-    <li>"Libra", "Stimulus", "Interest Rate"</li>
+    <li>"Libra", "Stimulus", "Interest Rate" and many many more</li>
 </ul>
 
