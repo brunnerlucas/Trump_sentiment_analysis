@@ -26,8 +26,7 @@ def get_random_tweet():
     
     if data_df is None or data_df.empty:
         return jsonify({"error": "No data available"}), 404
-
-    # Select a random tweet
+    
     random_tweet = data_df.sample(n=1).to_dict(orient="records")[0]
     
     return jsonify(random_tweet)
@@ -37,8 +36,7 @@ if __name__ == '__main__':
 
 
 
-
-#curl http://localhost:28881/random-tweet  to get the api response in the terminal
+#to get the api response in the terminal: curl http://localhost:28881/random-tweet  
 # run the virtual env all dependencies installed there: source venv/bin/activate
 #run the api but needs to be in the right directory:  python3 Tweet_API.py
 
