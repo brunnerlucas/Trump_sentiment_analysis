@@ -16,6 +16,8 @@
 <p>To obtain the Fear and Greed Index download the following</p>
 <p>🔗 <a href="https://www.kaggle.com/datasets/adilbhatti/bitcoin-and-fear-and-greed"> Fear and greed Index download </a></p>
 
+<h2>All used files are also saved here</h2>
+<p>🔗 <a href="https://drive.google.com/drive/folders/1EeyCvTc_tHN_1TOO9-bUWitEW6TWS7sC?usp=sharing"> Google Drive </a></p>
 
 <hr>
 
