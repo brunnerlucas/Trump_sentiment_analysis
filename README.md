@@ -12,8 +12,8 @@
 </ul>
 <a href="https://data.page/json/csv">Use this link tor transform the json to csv!
 
-<h2>📥 How to Get the BTC CSV File</h2>
-<p>To obtain the Fear and greed Index download the following</p>
+<h2>📥 How to Get the Fear and Greed Index CSV File</h2>
+<p>To obtain the Fear and Greed Index download the following</p>
 <p>🔗 <a href="https://www.kaggle.com/datasets/adilbhatti/bitcoin-and-fear-and-greed"> Fear and greed Index download </a></p>
 
 
