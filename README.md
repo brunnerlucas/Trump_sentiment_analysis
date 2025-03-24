@@ -8,34 +8,32 @@
 
 <p>The search terms used to filter relevant tweets include:</p>
 <ul>
-"Bitcoin" | "BTC" | "Crypto" | "Cryptocurrency" | "Blockchain" | "Digital currency" | "Ethereum" | "coin" | "Stablecoin" | "Mining" | "XRP" | "Libra" | "Stimulus" | "Interest Rate" | "Altcoin" | "DeFi" | "Web3" | "NFT" | "Smart Contract" | "Tokenomics" | "Layer 2 Scaling" | "Metaverse" | "CBDC" | "HODL" | "FUD" | "FOMO" | "Bull Run" | "Bear Market" | "Whale" | "Pump and Dump" | "Mooning" | "Airdrop" | "DEX" | "CEX" | "Federal Reserve" | "Monetary Policy" | "Inflation" | "Deflation" | "Recession" | "GDP Growth" | "Unemployment Rate" | "Stock Market Crash" | "Hedge Fund" | "Bailout" | "Debt Ceiling" | "Yield Curve" | "Fiat Currency" | "Quantitative Easing" | "Gold Standard" | "Reserve Currency" | "SEC" | "CFTC" | "Regulation" | "Crypto Ban" | "Taxation" | "Legal Tender" | "Stablecoin Regulation" | "AML" | "KYC" | "Crypto Crackdown" | "AI Trading Bots" | "Machine Learning in Finance" | "Quantum Computing in Crypto" | "Zero-Knowledge Proofs" | "Privacy Coins" | "Darknet Markets" | "5G & Crypto Adoption" | "Internet of Value" | "Tokenized Assets" | "Digital Identity"
+  <li>"Bitcoin" | "BTC" | "Crypto" | "Cryptocurrency" | "Blockchain" | "Digital currency" | "Ethereum" | "coin" | "Stablecoin" | "Mining" | "XRP" | "Libra" | "Stimulus" | "Interest Rate" | "Altcoin" | "DeFi" | "Web3" | "NFT" | "Smart Contract" | "Tokenomics" | "Layer 2 Scaling" | "Metaverse" | "CBDC" | "HODL" | "FUD" | "FOMO" | "Bull Run" | "Bear Market" | "Whale" | "Pump and Dump" | "Mooning" | "Airdrop" | "DEX" | "CEX" | "Federal Reserve" | "Monetary Policy" | "Inflation" | "Deflation" | "Recession" | "GDP Growth" | "Unemployment Rate" | "Stock Market Crash" | "Hedge Fund" | "Bailout" | "Debt Ceiling" | "Yield Curve" | "Fiat Currency" | "Quantitative Easing" | "Gold Standard" | "Reserve Currency" | "SEC" | "CFTC" | "Regulation" | "Crypto Ban" | "Taxation" | "Legal Tender" | "Stablecoin Regulation" | "AML" | "KYC" | "Crypto Crackdown" | "AI Trading Bots" | "Machine Learning in Finance" | "Quantum Computing in Crypto" | "Zero-Knowledge Proofs" | "Privacy Coins" | "Darknet Markets" | "5G & Crypto Adoption" | "Internet of Value" | "Tokenized Assets" | "Digital Identity"</li>
 </ul>
+
+<hr>
 
 <h2>⚙️ Kafka Setup</h2>
 
 <h3>📄 List All Kafka Topics</h3>
+<pre><code>kafka-topics.sh --list --bootstrap-server localhost:9092</code></pre>
 
-To view all existing Kafka topics, run the following command:
-
-kafka-topics.sh --list --bootstrap-server localhost:9092
 <h3>🧱 Create <code>btc_price</code> Topic</h3>
-If there is no topic called btc_price, create one with:
-<ul>
-kafka-topics.sh --create --topic btc_price --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
-</ul>
-<h2>🚀 Running the API</h2> <h3>📂 Step 1: Change Directory</h3>
-Navigate to the directory where your API code is saved:
-<ul>
-cd path/to/your/api
-</ul>
+<p>If there is no topic called <code>btc_price</code>, create one with:</p>
+<pre><code>kafka-topics.sh --create --topic btc_price --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1</code></pre>
+
+<hr>
+
+<h2>🚀 Running the API</h2>
+
+<h3>📂 Step 1: Change Directory</h3>
+<pre><code>cd path/to/your/api</code></pre>
+
 <h3>🐍 Step 2: Create and Activate Virtual Environment</h3>
-<ul>
-python3 -m venv venv
-source venv/bin/activate
-</ul>
+<pre><code>python3 -m venv venv
+source venv/bin/activate</code></pre>
+
 <h3>📦 Step 3: Install Requirements</h3>
-<ul>
-pip install pandas flask deltalake
-</ul>
+<pre><code>pip install pandas flask deltalake</code></pre>
 
-
+<p>Then you're ready to run the API!</p>
