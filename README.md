@@ -39,7 +39,7 @@
 <pre><code>python3 -m venv venv
 source venv/bin/activate</code></pre>
 
-<h3>📦 Step 3: Install Requirements</h3>
+<h3>📦 Step 3: Install Libraries</h3>
 <pre><code>pip install pandas flask deltalake</code></pre>
 
 <p>Then you're ready to run the API!</p>
